@@ -23,7 +23,7 @@ string Individu::toStringAndLink()
     resultat = toString();
     if (maVoiture != nullptr)
     {
-        resultat += "  Pilote la voiture : " + maVoiture->toString();
+        resultat += " pilote la voiture : " + maVoiture->toString();
     }
     return resultat;
 }
