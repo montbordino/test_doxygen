@@ -19,13 +19,13 @@ class Individu; /* Annonce une définition ultérieure de Individu
 // Spécification de la classe Voiture
 class Voiture
 {
-    /// ATTRIBUTS
+    // ATTRIBUTS
   public:
     string imat; // L'imatriculation de la voiture
     string marque; // La marque de la voiture
     Individu *monPilote; // Implémente un bon lien
 
-    /// METHODES
+    // METHODES
   public:
     // Constructeur
     Voiture(string = "", string = "");

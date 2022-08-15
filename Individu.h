@@ -18,13 +18,13 @@ class Voiture; /* Annonce une définition ultérieure de Voiture
 
 class Individu
 {
-    /// ATTRIBUTS
+    // ATTRIBUTS
   public:
     string nom; // Le nom de l'individu
     string prenom; // Le prénom de l'individu
-    Voiture *maVoiture; // Lien avec la voitue de l'individu
+    Voiture *maVoiture; // Lien avec la voiture de l'individu
 
-    /// MÉTHODES
+    // MÉTHODES
   public:
     // Constructeur
     Individu(string = "", string = "");
