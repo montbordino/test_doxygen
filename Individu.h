@@ -20,8 +20,8 @@ class Individu
 {
     // ATTRIBUTS
   public:
-    string nom; // Le nom de l'individu
-    string prenom; // Le prénom de l'individu
+    string nom;         // Le nom de l'individu
+    string prenom;      // Le prénom de l'individu
     Voiture *maVoiture; // Lien avec la voiture de l'individu
 
     // MÉTHODES
@@ -36,8 +36,8 @@ class Individu
     string toStringAndLink(); // Affiche l'identité de l'individu et de sa voiture s'il en a une
 
     // Méthodes spécifiques
-    void majMaVoiture(Voiture *);
-    void setMaVoiture(Voiture *);
+    void majMaVoiture(Voiture* voiture);
+    void setMaVoiture(Voiture* voiture);
     void supprimerLien();
 };
 

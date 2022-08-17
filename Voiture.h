@@ -37,8 +37,8 @@ class Voiture
     string toStringAndLink(); // Affiche les caractéristiques de la voiture et de son pilote s'il est défini
 
     // Methodes spécifiques : majMonPilote, supprimerLien, setMonPilote
-    void majMonPilote(Individu *);
-    void setMonPilote(Individu *);
+    void majMonPilote(Individu* pilote);
+    void setMonPilote(Individu* pilote);
     void supprimerLien();
 };
 
