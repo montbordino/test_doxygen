@@ -1,9 +1,13 @@
-/*
-  Spécifie une classe Individu en relation réciproque avec sa Voiture
-  Auteur : Lopistéguy
-  Version : 0.1
-  Date : 12/08/2022
-*/
+/**
+ * @file Individu.h
+ * @author Lopistéguy
+ * @brief spécifie une classe individu en relation reciproque avec sa voiture
+ * @version 0.6
+ * @date 2022-10-20
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 
 #ifndef INDIVIDU_H
 #define INDIVIDU_H
